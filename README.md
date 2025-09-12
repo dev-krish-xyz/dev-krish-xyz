@@ -7,7 +7,7 @@
 
 <p align="left"> <a href="https://twitter.com/krishdotdev" target="blank"><img src="https://img.shields.io/twitter/follow/krishdotdev?logo=twitter&style=for-the-badge" alt="krishdotdev" /></a> </p>
 
-- 🔭 I’m currently working on **taskio, which is a fullstack project manager tool**
+- 🔭 I’m currently working on **taskio, a fullstack project manager tool**
 
 - 🌱 I’m currently learning **node.js, express.js, prisma, drizzle, mongoose, postgreSQL**
 
