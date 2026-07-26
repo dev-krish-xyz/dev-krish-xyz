@@ -9,8 +9,8 @@
   </div>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://neofetch-profile.vercel.app/api?username=dev-krish-xyz&theme=github-dark&config=https%3A%2F%2Fraw.githubusercontent.com%2Fdev-krish-xyz%2Fdev-krish-xyz%2Fmain%2Fneofetch.json">
-  <img alt="Neofetch Profile" src="https://neofetch-profile.vercel.app/api?username=dev-krish-xyz&theme=github-light&config=https%3A%2F%2Fraw.githubusercontent.com%2Fdev-krish-xyz%2Fdev-krish-xyz%2Fmain%2Fneofetch.json">
+  <source media="(prefers-color-scheme: dark)" srcset="https://neofetch-profile.vercel.app/api?username=dev-krish-xyz&theme=github-dark&config=https%3A%2F%2Fraw.githubusercontent.com%2Fdev-krish-xyz%2Fdev-krish-xyz%2Fmain%2Fneofetch.json&v=3">
+  <img alt="Neofetch Profile" src="https://neofetch-profile.vercel.app/api?username=dev-krish-xyz&theme=github-light&config=https%3A%2F%2Fraw.githubusercontent.com%2Fdev-krish-xyz%2Fdev-krish-xyz%2Fmain%2Fneofetch.json&v=3">
 </picture>
 
 <picture>
