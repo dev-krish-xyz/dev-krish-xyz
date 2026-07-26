@@ -8,7 +8,11 @@
     <img src="https://komarev.com/ghpvc/?username=dev-krish-xyz&style=for-the-badge&color=0e75b6" alt="Profile views" />
   </div>
 
-![GitHubCard](https://githubcard.com/dev-krish-xyz.svg)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://neofetch-profile.vercel.app/api?username=dev-krish-xyz&theme=github-dark&config=https%3A%2F%2Fraw.githubusercontent.com%2Fdev-krish-xyz%2Fdev-krish-xyz%2Fmain%2Fneofetch.json">
+  <img alt="Neofetch Profile" src="https://neofetch-profile.vercel.app/api?username=dev-krish-xyz&theme=github-light&config=https%3A%2F%2Fraw.githubusercontent.com%2Fdev-krish-xyz%2Fdev-krish-xyz%2Fmain%2Fneofetch.json">
+</picture>
+
 <picture>
   <source
     media="(prefers-color-scheme: dark)"
@@ -24,11 +28,11 @@
   />
 </picture>
 
-Connect with me
+### Connect with me
 
-[!Twitter](https://x.com/krishdotdev)
+[![Twitter](https://img.shields.io/badge/Twitter-@krishdotdev-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/krishdotdev)
 
-Languages and tools
+### Languages and tools
 
 <p>
   <img src="https://skillicons.dev/icons?i=aws,blender,bootstrap,c,cpp,css,docker,express,figma,firebase,git,html,java,js,linux,matlab,mongodb,mysql,nextjs,nodejs,postgres,react,tailwind,ts" />
