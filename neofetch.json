@@ -13,17 +13,22 @@
       ]
     },
     {
+      "title": "- Stack",
       "fields": [
-        { "key": "Languages.Programming", "value": "TypeScript, Python, C, C++" },
-        { "key": "Languages.Frontend", "value": "Next.js, React, Tailwind CSS" },
-        { "key": "Languages.Backend", "value": "Node.js, Hono, FastAPI, Express" },
-        { "key": "Languages.Databases", "value": "PostgreSQL, MongoDB, Qdrant" }
+        { "key": "Languages", "value": "TypeScript, Python, C, C++" },
+        { "key": "Frontend", "value": "Next.js, React, Tailwind CSS" },
+        { "key": "Backend", "value": "Node.js, Hono, FastAPI, Express" },
+        { "key": "Databases", "value": "PostgreSQL, MongoDB, Qdrant" },
+        { "key": "AI", "value": "OpenAI, Anthropic, RAG, MCP" },
+        { "key": "DevOps", "value": "Docker, GitHub Actions, n8n, Linux" }
       ]
     },
     {
+      "title": "- Current",
       "fields": [
-        { "key": "Currently", "value": "Building LeadPilot, Agentic AI" },
-        { "key": "Hobbies", "value": "Open Source, AI Automation" }
+        { "key": "Building", "value": "LeadPilot" },
+        { "key": "Learning", "value": "Agentic AI" },
+        { "key": "Interests", "value": "Open Source, AI Automation" }
       ]
     },
     {
