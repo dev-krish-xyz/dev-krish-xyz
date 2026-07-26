@@ -8,61 +8,10 @@
     <img src="https://komarev.com/ghpvc/?username=dev-krish-xyz&style=for-the-badge&color=0e75b6" alt="Profile views" />
   </div>
 
-```
-krishna@github ───────────────────────────────────────────────────────────
-
-> whoami
-
-Name............... Krishna
-Role............... Full-Stack AI Engineer
-Location........... India
-
-Building........... LeadPilot
-Focus.............. AI Automation • Full-Stack Apps • SaaS
-Mission............ Building AI products that automate work.
-
-──────────────────────────────────────────────────────────────────────────
-
-> stack
-
-Languages.......... TypeScript • Python • C • C++
-Frontend........... Next.js • React • Tailwind CSS
-Backend............ Node.js • Hono • FastAPI • Express
-Databases.......... PostgreSQL • MongoDB • Qdrant
-AI.................. OpenAI • Anthropic • RAG • MCP
-DevOps.............. Docker • GitHub Actions • n8n • Linux
-
-──────────────────────────────────────────────────────────────────────────
-
-> currently
-
-• Building LeadPilot
-• Exploring Agentic AI
-• Contributing to Open Source
-
-──────────────────────────────────────────────────────────────────────────
-
-> github
-
-Repositories....... XX
-Contributions...... XXXX
-Followers.......... XXX
-
-──────────────────────────────────────────────────────────────────────────
-
-> links
-
-Website............ https://krishx.dev
-GitHub............. https://github.com/dev-krish-xyz
-X.................. https://x.com/krishdotdev
-LinkedIn........... https://www.linkedin.com/in/kalpatarubehera/
-
-──────────────────────────────────────────────────────────────────────────
-
-> motto
-
-"Build. Ship. Repeat."
-```
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://neofetch-profile.vercel.app/api?username=dev-krish-xyz&theme=github-dark&config=https%3A%2F%2Fraw.githubusercontent.com%2Fdev-krish-xyz%2Fdev-krish-xyz%2Fmain%2Fneofetch.json">
+  <img alt="Neofetch Profile" src="https://neofetch-profile.vercel.app/api?username=dev-krish-xyz&theme=github-light&config=https%3A%2F%2Fraw.githubusercontent.com%2Fdev-krish-xyz%2Fdev-krish-xyz%2Fmain%2Fneofetch.json">
+</picture>
 
 <picture>
   <source
@@ -78,10 +27,6 @@ LinkedIn........... https://www.linkedin.com/in/kalpatarubehera/
     src="https://raw.githubusercontent.com/dev-krish-xyz/dev-krish-xyz/output/github-contribution-grid-snake.svg"
   />
 </picture>
-
-### Connect with me
-
-[![Twitter](https://img.shields.io/badge/Twitter-@krishdotdev-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/krishdotdev)
 
 ### Languages and tools
 
