@@ -1,4 +1,5 @@
 {
+  "coloredImage": true,
   "sections": [
     {
       "title": "{{username}}@github",
@@ -8,15 +9,21 @@
         { "key": "Building", "value": "LeadPilot" },
         { "key": "Focus", "value": "AI Automation, Full-Stack Apps, SaaS" },
         { "key": "Mission", "value": "Building AI products that automate work." },
-        { "key": "Motto", "value": "Build. Ship. Repeat." },
-        { "key": "", "value": "" },
+        { "key": "Motto", "value": "Build. Ship. Repeat." }
+      ]
+    },
+    {
+      "fields": [
         { "key": "Languages.Programming", "value": "TypeScript, Python, C, C++" },
         { "key": "Languages.Frontend", "value": "Next.js, React, Tailwind CSS" },
         { "key": "Languages.Backend", "value": "Node.js, Hono, FastAPI, Express" },
-        { "key": "Languages.Databases", "value": "PostgreSQL, MongoDB, Qdrant" },
-        { "key": "", "value": "" },
-        { "key": "Hobbies.Currently", "value": "Building LeadPilot, Agentic AI" },
-        { "key": "Hobbies.Software", "value": "Open Source, AI Automation" }
+        { "key": "Languages.Databases", "value": "PostgreSQL, MongoDB, Qdrant" }
+      ]
+    },
+    {
+      "fields": [
+        { "key": "Currently", "value": "Building LeadPilot, Agentic AI" },
+        { "key": "Hobbies", "value": "Open Source, AI Automation" }
       ]
     },
     {
@@ -31,12 +38,10 @@
   ],
   "stats": {
     "title": "- GitHub Stats",
-    "enabled": true,
     "rows": [
       { "left": { "key": "Repos", "value": "{{repos}}" }, "right": { "key": "Stars", "value": "{{stars}}" } },
       { "left": { "key": "Commits", "value": "{{commits}}" }, "right": { "key": "Followers", "value": "{{followers}}" } },
       "loc"
     ]
-  },
-  "coloredImage": true
+  }
 }
