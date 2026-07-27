@@ -8,7 +8,12 @@
     <img src="https://komarev.com/ghpvc/?username=dev-krish-xyz&style=for-the-badge&color=0e75b6" alt="Profile views" />
   </div>
 
-<img src="./assets/card.svg" alt="dev-krish-xyz card" />
+<table>
+<tr>
+<td valign="top"><img src="https://github.com/dev-krish-xyz.png" width="260" height="260" /></td>
+<td valign="top"><img src="./assets/card.svg" alt="dev-krish-xyz card" /></td>
+</tr>
+</table>
 
 <picture>
   <source

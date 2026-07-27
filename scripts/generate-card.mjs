@@ -14,11 +14,6 @@ const repos = await fetch(
 
 const stars = repos.reduce((sum, r) => sum + (r.stargazers_count || 0), 0);
 
-const avatarBuf = await fetch(`https://github.com/${username}.png?size=400`).then((r) =>
-  r.arrayBuffer(),
-);
-const avatarDataUri = `data:image/png;base64,${Buffer.from(avatarBuf).toString("base64")}`;
-
 const stats = {
   repos: user.public_repos,
   followers: user.followers,
@@ -45,11 +40,10 @@ const COLORS = {
 const FONT_SIZE = 16;
 const LINE_HEIGHT = 20;
 const CHAR_WIDTH = 9.6;
-const LEFT_WIDTH = 320;
 const PAD_X = 20;
 const TOP_PAD = 30;
 const BOTTOM_PAD = 20;
-const RIGHT_X = LEFT_WIDTH + PAD_X;
+const RIGHT_X = PAD_X;
 
 // Column all values align to, based on the longest key across every row.
 const ALIGN_COL = 24;
@@ -131,17 +125,6 @@ const rightWidth = Math.ceil(longestLineChars * CHAR_WIDTH) + 20;
 const width = RIGHT_X + rightWidth + PAD_X;
 const contentHeight = TOP_PAD + rows.length * LINE_HEIGHT + BOTTOM_PAD;
 
-const dotPatternTop = LEFT_WIDTH > 0 ? 300 : 0;
-const dotPatternHeight = Math.max(0, contentHeight - dotPatternTop - 20);
-
-let dots = "";
-const dotSpacing = 24;
-for (let y = dotPatternTop + 12; y < dotPatternTop + dotPatternHeight; y += dotSpacing) {
-  for (let x = 12; x < LEFT_WIDTH - 12; x += dotSpacing) {
-    dots += `<circle cx="${x}" cy="${y}" r="1.6" fill="#30363d" />`;
-  }
-}
-
 let textLines = "";
 rows.forEach((row, i) => {
   const y = TOP_PAD + i * LINE_HEIGHT;
@@ -169,9 +152,6 @@ const svg = `<?xml version="1.0" encoding="UTF-8"?>
   text, tspan { white-space: pre; }
 </style>
 <rect width="${width}" height="${contentHeight}" fill="${COLORS.bg}" rx="12" />
-<clipPath id="avatarClip"><rect x="0" y="0" width="${LEFT_WIDTH}" height="${Math.min(300, contentHeight)}" /></clipPath>
-<image href="${avatarDataUri}" x="0" y="0" width="${LEFT_WIDTH}" height="${Math.min(300, contentHeight)}" preserveAspectRatio="xMidYMid slice" clip-path="url(#avatarClip)" />
-${dots}
 <text fill="${COLORS.header}">
 ${textLines}
 </text>
