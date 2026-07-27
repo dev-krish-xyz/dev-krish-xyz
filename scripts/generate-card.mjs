@@ -14,6 +14,11 @@ const repos = await fetch(
 
 const stars = repos.reduce((sum, r) => sum + (r.stargazers_count || 0), 0);
 
+const avatarBuf = await fetch(`https://github.com/${username}.png?size=400`).then((r) =>
+  r.arrayBuffer(),
+);
+const avatarDataUri = `data:image/png;base64,${Buffer.from(avatarBuf).toString("base64")}`;
+
 const stats = {
   repos: user.public_repos,
   followers: user.followers,
@@ -165,7 +170,7 @@ const svg = `<?xml version="1.0" encoding="UTF-8"?>
 </style>
 <rect width="${width}" height="${contentHeight}" fill="${COLORS.bg}" rx="12" />
 <clipPath id="avatarClip"><rect x="0" y="0" width="${LEFT_WIDTH}" height="${Math.min(300, contentHeight)}" /></clipPath>
-<image href="https://github.com/${username}.png?size=400" x="0" y="0" width="${LEFT_WIDTH}" height="${Math.min(300, contentHeight)}" preserveAspectRatio="xMidYMid slice" clip-path="url(#avatarClip)" />
+<image href="${avatarDataUri}" x="0" y="0" width="${LEFT_WIDTH}" height="${Math.min(300, contentHeight)}" preserveAspectRatio="xMidYMid slice" clip-path="url(#avatarClip)" />
 ${dots}
 <text fill="${COLORS.header}">
 ${textLines}
