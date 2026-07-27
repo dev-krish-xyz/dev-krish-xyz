@@ -8,53 +8,7 @@
     <img src="https://komarev.com/ghpvc/?username=dev-krish-xyz&style=for-the-badge&color=0e75b6" alt="Profile views" />
   </div>
 
-<table>
-<tr>
-<td valign="top"><img src="https://github.com/dev-krish-xyz.png" width="280" /></td>
-<td valign="top">
-
-```
-dev-krish-xyz@github ──────────────────────────────────────────────
-
-• Role::................................ Full-Stack AI Engineer
-• Location::............................ India
-• Building::............................ LeadPilot
-• Focus::............................... AI Automation, Full-Stack Apps, SaaS
-• Mission::............................. Building AI products that automate work.
-• Motto::............................... Build. Ship. Repeat.
-
-- Stack ──────────────────────────────────────────────
-
-• Languages::........................... TypeScript, Python, C, C++
-• Frontend::............................ Next.js, React, Tailwind CSS
-• Backend::............................. Node.js, Hono, FastAPI, Express
-• Databases::........................... PostgreSQL, MongoDB, Qdrant
-• AI::.................................. OpenAI, Anthropic, RAG, MCP
-• DevOps::.............................. Docker, GitHub Actions, n8n, Linux
-
-- Current ──────────────────────────────────────────────
-
-• Building::............................ LeadPilot
-• Learning::............................ Agentic AI
-• Interests::........................... Open Source, AI Automation
-
-- Contact ──────────────────────────────────────────────
-
-• Website::............................. https://krishx.dev
-• GitHub::.............................. github.com/dev-krish-xyz
-• Twitter::.............................. x.com/krishdotdev
-• LinkedIn::............................. linkedin.com/in/kalpatarubehera
-
-- GitHub Stats ──────────────────────────────────────────────
-
-• Repos::............. 28 │ Stars::............. 48
-• Commits::........... 1,400 │ Followers::......... 103
-• Lines of Code::....................... 60,800 (72,960++, 12,160--)
-```
-
-</td>
-</tr>
-</table>
+<img src="./assets/card.svg" alt="dev-krish-xyz card" />
 
 <picture>
   <source
